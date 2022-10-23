@@ -14,17 +14,15 @@
 - `files/` (this will contain the files created through C/C++ using filestreams)
 - `headers/` (this will contain your custom header files)
 
-#### WINDOWS:
+### WINDOWS:
 
-Here is a video that guides you on how to install Visual Studio Code (a very good code editor) and use it with UCC: https://www.youtube.com/watch?v=WLkYAsEskq8
+*Here is a video that guides you on how to install Visual Studio Code (a very good code editor) and use it with UCC:* https://www.youtube.com/watch?v=WLkYAsEskq8
 
-To use UCC on Windows, download https://github.com/uditkarode/ucc/archive/refs/heads/windows.zip
-
-Now, make a new folder somewhere, and extract the zip inside it.
-
-After extraction, **you must run** `UCC-INIT.bat`. The file will set up the directory and automatically remove itself.
-
-After this step, you **must** place your source codes in the sources/ directory.
+#### *Instructions:*
+1. **DOWNLOAD UCC:** https://github.com/uditkarode/ucc/archive/refs/heads/windows.zip
+2. Now, make a new folder somewhere, and extract the zip inside it.
+3. After extraction, **you must run** `UCC-INIT.bat`. The file will set up the directory and automatically remove itself.
+4. After this step, you **must** place your source codes in the sources/ directory.
 
 You can now use `UCC-BUILD.bat`, `UCC-RUN.bat`, or `UCC-BUILD-RUN.bat` to compile, run, or compile and seamlessly run respectively.
 
@@ -42,9 +40,9 @@ If you prefer direct command line usage, you can change directory to the assets 
 .\bash ucc -br abc.cpp
 ```
 
-#### *NIX:
+### LINIX/UNIX:
 
-###### ARCH LINUX/MANJARO USERS:
+ARCH LINUX/MANJARO USERS:
   
 ##### UCC is available on the AUR.  
 `yay/yaourt -S ucc`  
