@@ -75,9 +75,15 @@ In the words of Bob the Builder:
 > Happy Building!
 
 ## UCC Commands:
+
 Usage: ucc [option] [argument]
+
 ucc -b/--build <filename>: builds <filename> from the sources folder.
+  
 ucc -r/--run <filename>: runs <filename> from the builds folder.
+  
 ucc -br/--build-run <filename>: builds and runs <filename> from sources folder.
+  
 ucc -cb/--c-boilerplate <filename>: places <filename> in sources folder with C boilerplate.
+  
 ucc -cpb/--cpp-boilerplate <filename>: places <filename> in sources folder with CPP boilerplate.
